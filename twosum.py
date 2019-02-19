@@ -17,6 +17,6 @@ def twosum(nums,target):
     复杂度O(n^2)
     for i in range(len(nums)):
         for j in range(i,len(nums)):
-            if nums[i]+nums[j]=target:
+            if nums[i]+nums[j]==target:
                 return i,j
    '''
